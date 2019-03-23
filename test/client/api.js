@@ -1021,6 +1021,18 @@ module.exports = config => {
     );
   };
 
+  ClientApi.prototype.grantTokensFromSessionToken = function (sessionTokenHex, oauthParams) {
+    return tokens.SessionToken.fromHex(sessionTokenHex)
+      .then((token) => {
+        return this.doRequest(
+          'POST',
+          `${this.baseURL}/oauth/token`,
+          token,
+          oauthParams
+        )
+      })
+  }
+
   ClientApi.heartbeat = function (origin) {
     return (new ClientApi(origin)).doRequest('GET', `${origin  }/__heartbeat__`);
   };

@@ -692,5 +692,9 @@ module.exports = config => {
     return this.api.grantOAuthTokens(oauthParams);
   };
 
+  Client.prototype.grantTokensFromSessionToken = function (oauthParams) {
+    return this.api.grantTokensFromSessionToken(this.sessionToken, oauthParams);
+  }
+
   return Client;
-};
+}
