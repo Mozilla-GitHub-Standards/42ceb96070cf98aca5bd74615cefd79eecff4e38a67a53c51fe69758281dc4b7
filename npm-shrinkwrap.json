@@ -104,9 +104,9 @@
       }
     },
     "@babel/parser": {
-      "version": "7.4.0",
-      "resolved": "https://registry.npmjs.org/@babel/parser/-/parser-7.4.0.tgz",
-      "integrity": "sha512-ZmMhJfU/+SXXvy9ALjDZopa3T3EixQtQai89JRC48eM9OUwrxJjYjuM/0wmdl2AekytlzMVhPY8cYdLb13kpKQ==",
+      "version": "7.4.2",
+      "resolved": "https://registry.npmjs.org/@babel/parser/-/parser-7.4.2.tgz",
+      "integrity": "sha512-9fJTDipQFvlfSVdD/JBtkiY0br9BtfvW2R8wo6CX/Ej2eMuV0gWPk1M67Mt3eggQvBqYW1FCEk8BN7WvGm/g5g==",
       "dev": true
     },
     "@babel/template": {
@@ -217,9 +217,9 @@
       },
       "dependencies": {
         "@sinonjs/samsam": {
-          "version": "3.3.0",
-          "resolved": "https://registry.npmjs.org/@sinonjs/samsam/-/samsam-3.3.0.tgz",
-          "integrity": "sha512-beHeJM/RRAaLLsMJhsCvHK31rIqZuobfPLa/80yGH5hnD8PV1hyh9xJBJNFfNmO7yWqm+zomijHsXpI6iTQJfQ==",
+          "version": "3.3.1",
+          "resolved": "https://registry.npmjs.org/@sinonjs/samsam/-/samsam-3.3.1.tgz",
+          "integrity": "sha512-wRSfmyd81swH0hA1bxJZJ57xr22kC07a1N4zuIL47yTS04bDk6AoCkczcqHEjcRPmJ+FruGJ9WBQiJwMtIElFw==",
           "dev": true,
           "requires": {
             "@sinonjs/commons": "^1.0.2",
@@ -671,9 +671,9 @@
       }
     },
     "big-integer": {
-      "version": "1.6.42",
-      "resolved": "https://registry.npmjs.org/big-integer/-/big-integer-1.6.42.tgz",
-      "integrity": "sha512-3UQFKcRMx+5Z+IK5vYTMYK2jzLRJkt+XqyDdacgWgtMjjuifKpKTFneJLEgeBElOE2/lXZ1LcMcb5s8pwG2U8Q=="
+      "version": "1.6.43",
+      "resolved": "https://registry.npmjs.org/big-integer/-/big-integer-1.6.43.tgz",
+      "integrity": "sha512-9dULc9jsKmXl0Aeunug8wbF+58n+hQoFjqClN7WeZwGLh0XJUWyJJ9Ee+Ep+Ql/J9fRsTVaeThp8MhiCCrY0Jg=="
     },
     "bignumber.js": {
       "version": "4.0.4",
@@ -951,9 +951,9 @@
       "dev": true
     },
     "chokidar": {
-      "version": "2.1.2",
-      "resolved": "https://registry.npmjs.org/chokidar/-/chokidar-2.1.2.tgz",
-      "integrity": "sha512-IwXUx0FXc5ibYmPC2XeEj5mpXoV66sR+t3jqu2NS2GYwCktt3KF1/Qqjws/NkegajBA4RbZ5+DDwlOiJsxDHEg==",
+      "version": "2.1.5",
+      "resolved": "https://registry.npmjs.org/chokidar/-/chokidar-2.1.5.tgz",
+      "integrity": "sha512-i0TprVWp+Kj4WRPtInjexJ8Q+BqTE909VpH8xVhXrJkoc5QC8VO9TryGOqTr+2hljzc1sC62t22h5tZePodM/A==",
       "optional": true,
       "requires": {
         "anymatch": "^2.0.0",
@@ -967,7 +967,7 @@
         "normalize-path": "^3.0.0",
         "path-is-absolute": "^1.0.0",
         "readdirp": "^2.2.1",
-        "upath": "^1.1.0"
+        "upath": "^1.1.1"
       }
     },
     "ci-info": {
@@ -8447,8 +8447,9 @@
       }
     },
     "fxa-shared": {
-      "version": "git+https://github.com/mozilla/fxa-shared.git#a15b4204428d4017b37c3d5bdc7016f3ba46f085",
-      "from": "git+https://github.com/mozilla/fxa-shared.git#pb/redis-sorted-sets",
+      "version": "1.0.21",
+      "resolved": "https://registry.npmjs.org/fxa-shared/-/fxa-shared-1.0.21.tgz",
+      "integrity": "sha512-jIvoGmulWWDa6i5MjfxBjIZrk3WiBU/tZziKN8VQtptnfKGEGOFRPtbnpWX3lElLmf/46+yOXcSyKkIoA2WzTg==",
       "requires": {
         "accept-language": "2.0.17",
         "ajv": "6.10.0",
@@ -11224,9 +11225,9 @@
       }
     },
     "nan": {
-      "version": "2.13.1",
-      "resolved": "https://registry.npmjs.org/nan/-/nan-2.13.1.tgz",
-      "integrity": "sha512-I6YB/YEuDeUZMmhscXKxGgZlFnhsn5y0hgOZBadkzfTRrZBtJDZeg6eQf7PYMIEclwmorTKK8GztsyOUSVBREA==",
+      "version": "2.13.2",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.13.2.tgz",
+      "integrity": "sha512-TghvYc72wlMGMVMluVo9WRJc0mB8KxxF/gZ4YYFy7V2ZQX9l7rgbPg7vjS9mt6U5HXODVFVI2bOduCzwOMv/lw==",
       "optional": true
     },
     "nanomatch": {
@@ -14208,9 +14209,9 @@
       }
     },
     "uglify-js": {
-      "version": "3.5.0",
-      "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-3.5.0.tgz",
-      "integrity": "sha512-kY2sHdru6BcIDg+i1SCZ1bpPhZJ6yiE0bEKLEJDC4M/lDSMhr/zVJeuEzvHJGjAXJCizSzUVh9atREf2jnR7yQ==",
+      "version": "3.5.2",
+      "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-3.5.2.tgz",
+      "integrity": "sha512-imog1WIsi9Yb56yRt5TfYVxGmnWs3WSGU73ieSOlMVFwhJCA9W8fqFFMMj4kgDqiS/80LGdsYnWL7O9UcjEBlg==",
       "optional": true,
       "requires": {
         "commander": "~2.19.0",
